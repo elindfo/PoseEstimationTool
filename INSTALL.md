@@ -1,5 +1,5 @@
 [Docker]: https://www.docker.com/
-[Lifting from the Deep]: https://packaging.python.org/tutorials/installing-packages/
+[Lifting from the Deep]: https://github.com/DenisTome/Lifting-from-the-Deep-release
 
 # Installation
 ## Requirements

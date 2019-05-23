@@ -1,6 +1,6 @@
 [elindfo]: https://github.com/elindfo
 [alfonsinbox]: https://github.com/alfonsinbox
-[Lifting from the Deep]: https://packaging.python.org/tutorials/installing-packages/
+[Lifting from the Deep]: https://github.com/DenisTome/Lifting-from-the-Deep-release
 
 # PoseEstimationTool
 This tool has been developed by [elindfo] and [alfonsinbox] to simplify the process of estimating human poses in 3D using [Lifting from the Deep]. The tool can currently handle sets of JPEG images and a single MP4 video.
