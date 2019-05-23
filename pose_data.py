@@ -74,7 +74,7 @@ class Joint:
     @classmethod
     def from_json(cls, data):
         point = data['point']
-        return Joint(point[0], point[1], point[2], JointName[data['name']])  # SKAPA ENUM HÄR
+        return Joint(point[0], point[1], point[2], JointName[data['name']])
 
 
 class Skeleton3D:

@@ -1,7 +1,7 @@
 mkdir -p estimations formatted figures angles
 
 cd input
-if [ $IS_MOVIE = true ];
+if [ $VIDEO = true ];
 then
     echo 'Converting video to images'
     for file in *.mp4

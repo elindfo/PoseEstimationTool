@@ -1,5 +1,4 @@
 import numpy as np
-from typing import Tuple
 from pose_data import Joint, JointName, Skeleton3D
 import argparse
 import json
