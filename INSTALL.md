@@ -11,8 +11,8 @@ To install and use this tool you need to have a working instance of [Docker] ins
 Clone the repository to a directory of your choice and jump to the **PoseEstimationTool** folder:
 
 ```bash 
-git clone https://github.com/elindfo/PoseEstimationTool.git my-directory
-cd my-directory/PoseEstimationTool
+git clone https://github.com/elindfo/PoseEstimationTool.git
+cd PoseEstimationTool
 ```
 
 ## Step 2

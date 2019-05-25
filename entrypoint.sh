@@ -1,7 +1,25 @@
+shopt -s nullglob
+
+if [[ $VIDEO = true ]];
+then
+    find /shared/input/ -name "*.mp4"
+    if [[ $(find /shared/input/ -name "*.mp4" | wc -l) != 1 ]];
+    then
+        echo 'Bad input. Expected exactly one mp4 file.'
+        exit 1
+    fi
+else
+    find /shared/input/ -name "*.jpg"
+    if [[ -z "$(find /shared/input/ -name "*.jpg")" ]];
+    then
+        echo 'No images in input directory.'
+        exit 1
+    fi
+fi
 mkdir -p estimations formatted figures angles
 
 cd input
-if [ $VIDEO = true ];
+if [[ $VIDEO = true ]];
 then
     echo 'Converting video to images'
     for file in *.mp4
