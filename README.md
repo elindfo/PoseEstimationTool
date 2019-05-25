@@ -51,7 +51,7 @@ my-directory/
         0.json
         ...
     estimations/
-        1.json
+        example-image.json
         ...
     figures/
         0/
