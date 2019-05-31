@@ -15,7 +15,7 @@ my-directory/
     input/
 ```
 
-Next, copy the JPEG images **or** a single MP4 video to *my-directory/input/*:
+Next, copy the JPEG images **or** a single MP4 video to `my-directory/input/`:
 
 ```bash
 my-directory/
@@ -32,7 +32,7 @@ my-directory/
         example-video.mp4
 ```
 
-Now run the pose estimation tool using the **absolute path** to *my-directory* with one of the following two commands:
+Now run the pose estimation tool using the **absolute path** to `my-directory/` with one of the following two commands:
 
 **Using images:**
 ```bash
@@ -44,7 +44,7 @@ docker run --rm -v /path/to/my-directory:/shared pose-estimation-tool
 docker run --rm -e VIDEO=true -v /path/to/my-directory:/shared pose-estimation-tool
 ```
 
-This will create the following directory structure in *my-directory* with the pose estimation results:
+This will create the following directory structure in `my-directory/` with the estimated results:
 ```bash
 my-directory/
     angles/
